@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=Cherry+Cream+Soda&family=Koulen&family=Red+Rose&family=Staatliches&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
+  --font-sans: Verdana, sans-serif;
+  --font-display: Koulen;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --boo-teal: #019691;
+  --boo-navy: #1A1D43;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -86,13 +89,9 @@ body {
 }
 
 body {
+  /* background-color: whitesmoke; */
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: var(--font-sans);
 }
 
 a {

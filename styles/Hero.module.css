@@ -1,0 +1,26 @@
+.main {
+  position: relative;
+  width: 100vw;
+  height: 40vh;
+}
+
+.pic {
+  filter: brightness(80%);
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Cherry Cream Soda";
+  font-family: Koulen;
+  font-size: 4rem;
+  text-shadow: 3px 3px 2px rgba(26, 29, 67, 1);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
